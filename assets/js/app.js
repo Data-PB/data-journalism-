@@ -96,6 +96,7 @@ xText
   .attr("class", "aText inactive x")
   .text("Household Income (Median)");
 
+
 // B) Left Axis
 // ============
 
@@ -160,7 +161,7 @@ d3.csv("assets/data/data.csv").then(function(data) {
 });
 
 // 3. Create our visualization function
-// ====================================
+// =====================================
 // We called a "visualize" function on the data obtained with d3's .csv method.
 // This function handles the visual manipulation of all elements dependent on the data.
 function visualize(theData) {
